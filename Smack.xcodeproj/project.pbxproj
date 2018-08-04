@@ -27,6 +27,8 @@
 		CE77D35D2115B604008F3BE3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D35C2115B604008F3BE3 /* CircleImage.swift */; };
 		CE77D3602115D7A9008F3BE3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D35E2115D7A9008F3BE3 /* ProfileVC.swift */; };
 		CE77D3612115D7A9008F3BE3 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE77D35F2115D7A9008F3BE3 /* ProfileVC.xib */; };
+		CE77D3642116025A008F3BE3 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D3632116025A008F3BE3 /* MessageService.swift */; };
+		CE77D366211602B2008F3BE3 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D365211602B2008F3BE3 /* Channel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		CE77D35C2115B604008F3BE3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		CE77D35E2115D7A9008F3BE3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		CE77D35F2115D7A9008F3BE3 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		CE77D3632116025A008F3BE3 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		CE77D365211602B2008F3BE3 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 		CE6DBCEE211434AA00041082 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CE77D365211602B2008F3BE3 /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 		CE77D351211571FF008F3BE3 /* Servises */ = {
 			isa = PBXGroup;
 			children = (
+				CE77D3632116025A008F3BE3 /* MessageService.swift */,
 				CE77D3522115721D008F3BE3 /* AuthService.swift */,
 				CE77D35621158113008F3BE3 /* UserDataService.swift */,
 			);
@@ -314,7 +320,9 @@
 				CE6DBCF621146DEC00041082 /* GradiantView.swift in Sources */,
 				CE77D3592115901B008F3BE3 /* AvatarPickerVC.swift in Sources */,
 				CE77D3552115799D008F3BE3 /* RoundedButton.swift in Sources */,
+				CE77D366211602B2008F3BE3 /* Channel.swift in Sources */,
 				CE77D35D2115B604008F3BE3 /* CircleImage.swift in Sources */,
+				CE77D3642116025A008F3BE3 /* MessageService.swift in Sources */,
 				CE6DBCF42114363700041082 /* ChannelVC.swift in Sources */,
 				CE77D35721158113008F3BE3 /* UserDataService.swift in Sources */,
 				CE77D35021156236008F3BE3 /* CreateAccountVC.swift in Sources */,
