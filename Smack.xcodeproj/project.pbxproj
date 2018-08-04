@@ -21,6 +21,7 @@
 		CE77D35021156236008F3BE3 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D34F21156236008F3BE3 /* CreateAccountVC.swift */; };
 		CE77D3532115721D008F3BE3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D3522115721D008F3BE3 /* AuthService.swift */; };
 		CE77D3552115799D008F3BE3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D3542115799D008F3BE3 /* RoundedButton.swift */; };
+		CE77D35721158113008F3BE3 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D35621158113008F3BE3 /* UserDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		CE77D34F21156236008F3BE3 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		CE77D3522115721D008F3BE3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CE77D3542115799D008F3BE3 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		CE77D35621158113008F3BE3 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				CE77D3522115721D008F3BE3 /* AuthService.swift */,
+				CE77D35621158113008F3BE3 /* UserDataService.swift */,
 			);
 			path = Servises;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				CE6DBCF621146DEC00041082 /* GradiantView.swift in Sources */,
 				CE77D3552115799D008F3BE3 /* RoundedButton.swift in Sources */,
 				CE6DBCF42114363700041082 /* ChannelVC.swift in Sources */,
+				CE77D35721158113008F3BE3 /* UserDataService.swift in Sources */,
 				CE77D35021156236008F3BE3 /* CreateAccountVC.swift in Sources */,
 				CE77D3532115721D008F3BE3 /* AuthService.swift in Sources */,
 				CE6DBCFB21155E3400041082 /* LoginVC.swift in Sources */,
