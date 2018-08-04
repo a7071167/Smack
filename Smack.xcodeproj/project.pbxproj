@@ -18,6 +18,7 @@
 		CE6DBCF621146DEC00041082 /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DBCF521146DEC00041082 /* GradiantView.swift */; };
 		CE6DBCF92114777800041082 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DBCF82114777800041082 /* Constants.swift */; };
 		CE6DBCFB21155E3400041082 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DBCFA21155E3400041082 /* LoginVC.swift */; };
+		CE77D35021156236008F3BE3 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D34F21156236008F3BE3 /* CreateAccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		CE6DBCF521146DEC00041082 /* GradiantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GradiantView.swift; path = Smack/View/GradiantView.swift; sourceTree = SOURCE_ROOT; };
 		CE6DBCF82114777800041082 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CE6DBCFA21155E3400041082 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CE77D34F21156236008F3BE3 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			children = (
 				CE6DBCF12114362700041082 /* ChatVC.swift */,
 				CE6DBCF32114363700041082 /* ChannelVC.swift */,
+				CE77D34F21156236008F3BE3 /* CreateAccountVC.swift */,
 				CE6DBCFA21155E3400041082 /* LoginVC.swift */,
 			);
 			path = Controller;
@@ -268,6 +271,7 @@
 			files = (
 				CE6DBCF621146DEC00041082 /* GradiantView.swift in Sources */,
 				CE6DBCF42114363700041082 /* ChannelVC.swift in Sources */,
+				CE77D35021156236008F3BE3 /* CreateAccountVC.swift in Sources */,
 				CE6DBCFB21155E3400041082 /* LoginVC.swift in Sources */,
 				CE6DBCF22114362700041082 /* ChatVC.swift in Sources */,
 				CE6DBCD82114275A00041082 /* AppDelegate.swift in Sources */,
