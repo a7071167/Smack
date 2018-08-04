@@ -25,6 +25,8 @@
 		CE77D3592115901B008F3BE3 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D3582115901B008F3BE3 /* AvatarPickerVC.swift */; };
 		CE77D35B21159331008F3BE3 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D35A21159331008F3BE3 /* AvatarCell.swift */; };
 		CE77D35D2115B604008F3BE3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D35C2115B604008F3BE3 /* CircleImage.swift */; };
+		CE77D3602115D7A9008F3BE3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D35E2115D7A9008F3BE3 /* ProfileVC.swift */; };
+		CE77D3612115D7A9008F3BE3 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE77D35F2115D7A9008F3BE3 /* ProfileVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		CE77D3582115901B008F3BE3 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		CE77D35A21159331008F3BE3 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		CE77D35C2115B604008F3BE3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CE77D35E2115D7A9008F3BE3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		CE77D35F2115D7A9008F3BE3 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		CE6DBCD62114275A00041082 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				CE77D3622115D7B8008F3BE3 /* XIBs */,
 				CE77D351211571FF008F3BE3 /* Servises */,
 				CE6DBCEE211434AA00041082 /* Model */,
 				CE6DBCF72114775F00041082 /* Utilities */,
@@ -146,6 +151,7 @@
 				CE77D34F21156236008F3BE3 /* CreateAccountVC.swift */,
 				CE6DBCFA21155E3400041082 /* LoginVC.swift */,
 				CE77D3582115901B008F3BE3 /* AvatarPickerVC.swift */,
+				CE77D35E2115D7A9008F3BE3 /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,6 +171,14 @@
 				CE77D35621158113008F3BE3 /* UserDataService.swift */,
 			);
 			path = Servises;
+			sourceTree = "<group>";
+		};
+		CE77D3622115D7B8008F3BE3 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				CE77D35F2115D7A9008F3BE3 /* ProfileVC.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 		E3D423867C70F607AF34D322 /* Pods */ = {
@@ -237,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE77D3612115D7A9008F3BE3 /* ProfileVC.xib in Resources */,
 				CE6DBCE22114275B00041082 /* LaunchScreen.storyboard in Resources */,
 				CE6DBCDF2114275B00041082 /* Assets.xcassets in Resources */,
 				CE6DBCDD2114275A00041082 /* Main.storyboard in Resources */,
@@ -295,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE77D3602115D7A9008F3BE3 /* ProfileVC.swift in Sources */,
 				CE6DBCF621146DEC00041082 /* GradiantView.swift in Sources */,
 				CE77D3592115901B008F3BE3 /* AvatarPickerVC.swift in Sources */,
 				CE77D3552115799D008F3BE3 /* RoundedButton.swift in Sources */,
