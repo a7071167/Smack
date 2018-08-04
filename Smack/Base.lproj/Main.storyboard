@@ -276,7 +276,7 @@
                                     <constraint firstAttribute="height" constant="50" id="i1e-Fu-K2a"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -284,7 +284,14 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPressed:" destination="Rsu-xy-uRu" eventType="touchUpInside" id="zFI-N4-d0p"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="6sN-2p-f2f">
+                                <rect key="frame" x="169" y="235" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -297,11 +304,16 @@
                             <constraint firstItem="4rp-oR-6Rl" firstAttribute="top" secondItem="Qe2-ME-v0b" secondAttribute="bottom" constant="40" id="cfv-m8-N7E"/>
                             <constraint firstItem="hZQ-x7-juv" firstAttribute="centerX" secondItem="NUE-Cc-mjy" secondAttribute="centerX" id="gHo-Gl-RAc"/>
                             <constraint firstItem="hZQ-x7-juv" firstAttribute="top" secondItem="4rp-oR-6Rl" secondAttribute="bottom" id="gRr-55-9jI"/>
+                            <constraint firstItem="6sN-2p-f2f" firstAttribute="centerY" secondItem="NUE-Cc-mjy" secondAttribute="centerY" constant="-80" id="ga2-SY-p2I"/>
+                            <constraint firstItem="6sN-2p-f2f" firstAttribute="centerX" secondItem="NUE-Cc-mjy" secondAttribute="centerX" id="hsS-4m-fi3"/>
                             <constraint firstItem="Qe2-ME-v0b" firstAttribute="top" secondItem="S66-J2-eoC" secondAttribute="bottom" constant="40" id="nTb-L6-YfP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zyj-0R-USP"/>
                     </view>
                     <connections>
+                        <outlet property="passwordTxt" destination="5bh-b7-wbG" id="uda-Bv-l4g"/>
+                        <outlet property="spinner" destination="6sN-2p-f2f" id="Oxr-pM-igY"/>
+                        <outlet property="usernameTxt" destination="4HO-eV-2e1" id="gyN-Lg-wUv"/>
                         <segue destination="dbY-3z-6Xl" kind="show" identifier="toCreateAccount" id="1eo-ZV-04d"/>
                     </connections>
                 </viewController>
