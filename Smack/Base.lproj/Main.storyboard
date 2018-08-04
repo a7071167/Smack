@@ -98,7 +98,7 @@
                                 <rect key="frame" x="283" y="77" width="22" height="22"/>
                                 <state key="normal" image="addChannelButton"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="OGY-e0-B5e">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="OGY-e0-B5e" customClass="CircleImage" customModule="Smack" customModuleProvider="target">
                                 <rect key="frame" x="16" y="572" width="75" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="XkV-bG-2zE"/>
@@ -140,9 +140,9 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIy-OD-DeH">
-                                <rect key="frame" x="111" y="593" width="51" height="33"/>
+                                <rect key="frame" x="111" y="593" width="46" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="Log In">
+                                <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -385,7 +385,7 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="vHI-fw-Dob">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="vHI-fw-Dob" customClass="CircleImage" customModule="Smack" customModuleProvider="target">
                                 <rect key="frame" x="137.5" y="277.5" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="NhA-XD-5ns"/>
@@ -439,6 +439,10 @@
                                     <action selector="pickBgColorPressed:" destination="dbY-3z-6Xl" eventType="touchUpInside" id="NuG-mG-Fvh"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="tu7-tV-6XO">
+                                <rect key="frame" x="169" y="225" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -452,10 +456,12 @@
                             <constraint firstItem="tfJ-x5-18q" firstAttribute="width" secondItem="vHI-fw-Dob" secondAttribute="width" id="REU-mR-AbN"/>
                             <constraint firstItem="tfJ-x5-18q" firstAttribute="top" secondItem="vHI-fw-Dob" secondAttribute="top" id="enq-jr-2MI"/>
                             <constraint firstItem="XZt-hG-avw" firstAttribute="centerX" secondItem="cd3-nm-Z0u" secondAttribute="centerX" id="euZ-O1-W3b"/>
+                            <constraint firstItem="tu7-tV-6XO" firstAttribute="centerY" secondItem="cd3-nm-Z0u" secondAttribute="centerY" constant="-90" id="gYS-cn-9RZ"/>
                             <constraint firstItem="KDo-2v-6Nn" firstAttribute="centerX" secondItem="cd3-nm-Z0u" secondAttribute="centerX" id="mgY-H8-PH1"/>
                             <constraint firstItem="n8y-5T-me8" firstAttribute="trailing" secondItem="fz6-tc-HMH" secondAttribute="trailing" constant="16" id="psP-yF-DJc"/>
                             <constraint firstItem="JnA-zt-5Zk" firstAttribute="centerX" secondItem="cd3-nm-Z0u" secondAttribute="centerX" id="qlz-a7-S7P"/>
                             <constraint firstItem="vHI-fw-Dob" firstAttribute="centerX" secondItem="cd3-nm-Z0u" secondAttribute="centerX" id="s5f-Er-Pqs"/>
+                            <constraint firstItem="tu7-tV-6XO" firstAttribute="centerX" secondItem="cd3-nm-Z0u" secondAttribute="centerX" id="tep-2g-1Ou"/>
                             <constraint firstItem="n8y-5T-me8" firstAttribute="bottom" secondItem="KDo-2v-6Nn" secondAttribute="bottom" constant="20" id="zJd-xC-XmH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="n8y-5T-me8"/>
@@ -463,6 +469,7 @@
                     <connections>
                         <outlet property="emailTxt" destination="PWk-FX-Ezs" id="Vs4-W2-kLm"/>
                         <outlet property="passTxt" destination="mHm-hS-3LV" id="GXK-r9-gKj"/>
+                        <outlet property="spinner" destination="tu7-tV-6XO" id="de1-i5-l3W"/>
                         <outlet property="userImg" destination="vHI-fw-Dob" id="btA-8w-5zG"/>
                         <outlet property="userNameTxt" destination="NnL-ae-mJl" id="MG0-Hf-HYf"/>
                         <segue destination="xGb-PY-Kbp" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="xWb-Kc-UwV"/>
