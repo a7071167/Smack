@@ -19,6 +19,7 @@
 		CE6DBCF92114777800041082 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DBCF82114777800041082 /* Constants.swift */; };
 		CE6DBCFB21155E3400041082 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6DBCFA21155E3400041082 /* LoginVC.swift */; };
 		CE77D35021156236008F3BE3 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D34F21156236008F3BE3 /* CreateAccountVC.swift */; };
+		CE77D3532115721D008F3BE3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D3522115721D008F3BE3 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		CE6DBCF82114777800041082 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CE6DBCFA21155E3400041082 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CE77D34F21156236008F3BE3 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		CE77D3522115721D008F3BE3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		CE6DBCD62114275A00041082 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				CE77D351211571FF008F3BE3 /* Servises */,
 				CE6DBCEE211434AA00041082 /* Model */,
 				CE6DBCF72114775F00041082 /* Utilities */,
 				CE6DBCEF211434BE00041082 /* View */,
@@ -139,6 +142,14 @@
 				CE6DBCF82114777800041082 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CE77D351211571FF008F3BE3 /* Servises */ = {
+			isa = PBXGroup;
+			children = (
+				CE77D3522115721D008F3BE3 /* AuthService.swift */,
+			);
+			path = Servises;
 			sourceTree = "<group>";
 		};
 		E3D423867C70F607AF34D322 /* Pods */ = {
@@ -272,6 +283,7 @@
 				CE6DBCF621146DEC00041082 /* GradiantView.swift in Sources */,
 				CE6DBCF42114363700041082 /* ChannelVC.swift in Sources */,
 				CE77D35021156236008F3BE3 /* CreateAccountVC.swift in Sources */,
+				CE77D3532115721D008F3BE3 /* AuthService.swift in Sources */,
 				CE6DBCFB21155E3400041082 /* LoginVC.swift in Sources */,
 				CE6DBCF22114362700041082 /* ChatVC.swift in Sources */,
 				CE6DBCD82114275A00041082 /* AppDelegate.swift in Sources */,
