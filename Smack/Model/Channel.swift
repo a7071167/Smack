@@ -18,7 +18,6 @@ struct Channel: Decodable {
 }
 
 
-
 //struct Channel {
 //
 //    public private(set) var channelTitle: String!
