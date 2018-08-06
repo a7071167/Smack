@@ -91,6 +91,7 @@ class AuthService {
                     let json = try JSON(data: data)
                     self.userEmail = json["user"].stringValue
                     self.authToken = json["token"].stringValue
+                    print("AUTHTOKEN : \(self.authToken)")
                 } catch let error {
                     print("Error LoginUser: \(error)")
                 }
