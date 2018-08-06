@@ -23,6 +23,8 @@ let smackPurplePlacehoder = #colorLiteral(red: 0.3254901961, green: 0.4196078431
 
 // Notification Constants
 let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUserDataDidChange")
+let NOTIF_CHALLELS_LOADED = Notification.Name("channelsLoaded")
+let NOTIF_CHANNEL_SELECTED = Notification.Name("channelSelected")
 
 // Segues
 let TO_LOGIN = "toLogin"
