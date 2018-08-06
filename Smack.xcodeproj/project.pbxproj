@@ -33,6 +33,7 @@
 		CE77D36B2116BA05008F3BE3 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D3692116BA05008F3BE3 /* AddChannelVC.swift */; };
 		CE77D36C2116BA05008F3BE3 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE77D36A2116BA05008F3BE3 /* AddChannelVC.xib */; };
 		CE77D36E21180EE8008F3BE3 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D36D21180EE8008F3BE3 /* SocketService.swift */; };
+		CE77D37021182515008F3BE3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D36F21182515008F3BE3 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		CE77D3692116BA05008F3BE3 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		CE77D36A2116BA05008F3BE3 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		CE77D36D21180EE8008F3BE3 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		CE77D36F21182515008F3BE3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				CE77D365211602B2008F3BE3 /* Channel.swift */,
+				CE77D36F21182515008F3BE3 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				CE6DBCF621146DEC00041082 /* GradiantView.swift in Sources */,
 				CE77D3592115901B008F3BE3 /* AvatarPickerVC.swift in Sources */,
 				CE77D3552115799D008F3BE3 /* RoundedButton.swift in Sources */,
+				CE77D37021182515008F3BE3 /* Message.swift in Sources */,
 				CE77D366211602B2008F3BE3 /* Channel.swift in Sources */,
 				CE77D35D2115B604008F3BE3 /* CircleImage.swift in Sources */,
 				CE77D3642116025A008F3BE3 /* MessageService.swift in Sources */,
