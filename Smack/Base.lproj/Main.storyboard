@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14306.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14278.2"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -63,18 +63,40 @@
                                     <constraint firstAttribute="height" constant="77" id="ugs-oV-Mye"/>
                                 </constraints>
                             </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MyC-du-r27">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rJr-6L-bfS"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0LA-eK-Ijb">
+                                <rect key="frame" x="337" y="632" width="30" height="30"/>
+                                <state key="normal" image="send"/>
+                                <connections>
+                                    <action selector="sendMessagePressed:" destination="CVV-WL-PGN" eventType="touchUpInside" id="MAM-Wt-v7c"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="aLW-Wp-AIq" firstAttribute="trailing" secondItem="xaT-HE-9YL" secondAttribute="trailing" id="55K-zv-fVv"/>
+                            <constraint firstItem="MyC-du-r27" firstAttribute="leading" secondItem="xaT-HE-9YL" secondAttribute="leading" id="6P9-4v-pIe"/>
+                            <constraint firstItem="MyC-du-r27" firstAttribute="bottom" secondItem="xaT-HE-9YL" secondAttribute="bottom" id="Ksx-La-I0i"/>
+                            <constraint firstItem="xaT-HE-9YL" firstAttribute="trailing" secondItem="0LA-eK-Ijb" secondAttribute="trailing" constant="8" id="SEN-nP-s0C"/>
+                            <constraint firstItem="0LA-eK-Ijb" firstAttribute="centerY" secondItem="MyC-du-r27" secondAttribute="centerY" id="b8T-rc-x0C"/>
                             <constraint firstItem="aLW-Wp-AIq" firstAttribute="leading" secondItem="xaT-HE-9YL" secondAttribute="leading" id="lQQ-CR-jMP"/>
                             <constraint firstItem="aLW-Wp-AIq" firstAttribute="top" secondItem="Anz-6h-mm3" secondAttribute="top" id="maa-Kp-btk"/>
+                            <constraint firstItem="xaT-HE-9YL" firstAttribute="trailing" secondItem="MyC-du-r27" secondAttribute="trailing" id="x6A-DM-gfG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xaT-HE-9YL"/>
                     </view>
                     <connections>
                         <outlet property="channelNameLbl" destination="fc1-Kg-m50" id="G2D-Yi-LkI"/>
                         <outlet property="menuBtn" destination="zsR-Au-G98" id="U50-X7-zS1"/>
+                        <outlet property="messageTxtBox" destination="MyC-du-r27" id="Gb3-g9-dya"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccM-K1-5fh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -595,6 +617,7 @@
         <image name="closeButton" width="28" height="28"/>
         <image name="menuProfileIcon" width="99" height="99"/>
         <image name="profileDefault" width="192" height="192"/>
+        <image name="send" width="30" height="30"/>
         <image name="smackBack" width="28" height="28"/>
         <image name="smackBurger" width="40" height="40"/>
         <image name="smackLogo" width="48" height="40"/>

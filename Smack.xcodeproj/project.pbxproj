@@ -34,6 +34,7 @@
 		CE77D36C2116BA05008F3BE3 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE77D36A2116BA05008F3BE3 /* AddChannelVC.xib */; };
 		CE77D36E21180EE8008F3BE3 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D36D21180EE8008F3BE3 /* SocketService.swift */; };
 		CE77D37021182515008F3BE3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77D36F21182515008F3BE3 /* Message.swift */; };
+		CE91CEE521185C960028BC09 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91CEE421185C960028BC09 /* KeyboardBoundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		CE77D36A2116BA05008F3BE3 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		CE77D36D21180EE8008F3BE3 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		CE77D36F21182515008F3BE3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CE91CEE421185C960028BC09 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		CE6DBCEF211434BE00041082 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CE91CEE421185C960028BC09 /* KeyboardBoundView.swift */,
 				CE6DBCF521146DEC00041082 /* GradiantView.swift */,
 				CE77D35A21159331008F3BE3 /* AvatarCell.swift */,
 				CE77D3542115799D008F3BE3 /* RoundedButton.swift */,
@@ -332,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE91CEE521185C960028BC09 /* KeyboardBoundView.swift in Sources */,
 				CE77D36E21180EE8008F3BE3 /* SocketService.swift in Sources */,
 				CE77D3602115D7A9008F3BE3 /* ProfileVC.swift in Sources */,
 				CE77D3682116AC33008F3BE3 /* ChannelCell.swift in Sources */,
