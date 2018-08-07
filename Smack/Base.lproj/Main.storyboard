@@ -63,7 +63,7 @@
                                     <constraint firstAttribute="height" constant="77" id="ugs-oV-Mye"/>
                                 </constraints>
                             </view>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MyC-du-r27">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Message: " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MyC-du-r27">
                                 <rect key="frame" x="0.0" y="627" width="375" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="rJr-6L-bfS"/>
@@ -71,6 +71,9 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="messageBoxEditing:" destination="CVV-WL-PGN" eventType="editingChanged" id="Ndw-8S-ynU"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0LA-eK-Ijb">
                                 <rect key="frame" x="337" y="632" width="30" height="30"/>
@@ -161,6 +164,7 @@
                         <outlet property="channelNameLbl" destination="fc1-Kg-m50" id="G2D-Yi-LkI"/>
                         <outlet property="menuBtn" destination="zsR-Au-G98" id="U50-X7-zS1"/>
                         <outlet property="messageTxtBox" destination="MyC-du-r27" id="Gb3-g9-dya"/>
+                        <outlet property="sendButton" destination="0LA-eK-Ijb" id="r9E-UH-axm"/>
                         <outlet property="tableView" destination="7ph-b7-QUo" id="Cum-z2-Bn7"/>
                     </connections>
                 </viewController>
