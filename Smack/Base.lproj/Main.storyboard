@@ -131,6 +131,7 @@
                                                 <constraint firstItem="Hmb-fM-sfD" firstAttribute="centerY" secondItem="fGq-Tu-aFV" secondAttribute="centerY" id="su5-kH-eY2"/>
                                                 <constraint firstItem="NQ7-2t-b9n" firstAttribute="top" secondItem="Hmb-fM-sfD" secondAttribute="bottom" id="vD8-SR-gWg"/>
                                                 <constraint firstItem="gyZ-8d-hnh" firstAttribute="top" secondItem="P6u-HE-s5W" secondAttribute="top" constant="16" id="wj9-sp-qw1"/>
+                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="gyZ-8d-hnh" secondAttribute="bottom" constant="4" id="xxK-6R-j9N"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

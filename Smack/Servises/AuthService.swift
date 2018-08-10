@@ -58,7 +58,7 @@ class AuthService {
                 completion(true)
             } else {
                 completion(false)
-                debugPrint(response.result.error as Any)
+                debugPrint("ERROR REGISTER USER : ", response.result.error as Any)
             }
         }
         
@@ -99,7 +99,7 @@ class AuthService {
                 completion(true)
             } else {
                 completion(false)
-                debugPrint(response.result.error as Any)
+                debugPrint("ERROR LOGIN USER : ", response.result.error as Any)
             }
         }
     }
@@ -122,7 +122,7 @@ class AuthService {
                 completion(true)
             } else {
                 completion(false)
-                debugPrint(response.result.error as Any)
+                debugPrint("ERROR CREATE USER : ", response.result.error as Any)
             }
         }
         
@@ -139,7 +139,7 @@ class AuthService {
                 completion(true)
             } else {
                 completion(false)
-                debugPrint(response.result.error as Any)
+                debugPrint("ERROR FIND USER BY EMAIL : ", response.result.error as Any)
             }
         }
         
